@@ -1,0 +1,28 @@
+#container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: start; 
+    align-items: center;
+    gap: 50px;
+    background-color: #222;
+    padding: 50px 0;
+    overflow-x:hidden;
+}
+
+#container>div{
+    position: relative;
+    width: 80%;
+    height: 50vh;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px black;
+}
+
+
+#container>div:last-child{
+    background-color: aquamarine;
+}
